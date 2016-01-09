@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Demo Kutai Barat</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Keluar</string>
+
+    <string name="username">Nama Pengguna</string>
+    <string name="pass">Kata Sandi</string>
+    <string name="login">Masuk</string>
+    <string name="keluar">Keluar</string>
+    <string name="title_activity_login">Masuk</string>
+
+    <!-- STRING toolbar-->
+    <string name="m_berita">Berita</string>
+    <string name="m_wisata">Wisata</string>
+    <string name="m_aduan">Pengaduan</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_activity_berita">Berita</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_row_selector"
+    android:padding="8dp">
+
+    <!-- Thumbnail Image -->
+    <tuxdev.studio.demokutaibarat.CustomImageView
+        android:id="@+id/listImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@color/white"
+        android:padding="5dp"
+        android:scaleType="fitXY"
+        android:visibility="visible"/>
+
+    <!-- Movie Title -->
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:textSize="@dimen/title"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/listImage"
+        android:layout_toEndOf="@+id/listImage" />
+
+
+    <!-- Genre -->
+    <TextView
+        android:id="@+id/genre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/genre"
+        android:textSize="@dimen/genre"
+        android:layout_below="@+id/judul"
+        android:layout_toRightOf="@+id/listImage"
+        android:layout_toEndOf="@+id/listImage" />
+
+    <!-- Release Year -->
+    <TextView
+        android:id="@+id/tahun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/year"
+        android:textSize="@dimen/year" />
+
+</RelativeLayout>
